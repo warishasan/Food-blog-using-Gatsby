@@ -16,7 +16,7 @@ export default function Home() {
   const data = useStaticQuery(graphql`query {
     allContentfulBlogPost (sort:{
       fields:publishedDate
-      order:ASC
+      order:DESC
     }, limit: 3)
   {
       edges{
