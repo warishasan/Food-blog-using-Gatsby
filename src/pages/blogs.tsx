@@ -2,7 +2,6 @@ import React from "react"
 import PageLayout from '../pageLayouts/pageLayout'
 import {Link,graphql,useStaticQuery} from 'gatsby';
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
 const styles = require('./blogs.module.css');
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 import Image from 'react-bootstrap/Image'
