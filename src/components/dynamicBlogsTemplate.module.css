@@ -1,0 +1,68 @@
+.jumbotron{
+    padding: 1vmax;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 1vmax;
+}
+
+.jumbotron h2{
+    font-size: 3vmax;
+    margin-bottom: 1vmax;
+}
+
+.jumbotron p{
+    font-size: 1.2vmax;
+}
+
+.heading{
+    font-size: 5vmax;
+    text-align: center;
+    margin-bottom: 1vmax;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px grey;
+    margin-top: 2vmax;
+}
+.date{
+    font-size: 2vmax;
+    text-align: center;
+    margin-bottom: 3vmax;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.body{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2vmax;
+    margin-bottom: 3vmax;
+    font-size: 1.2vmax;
+   
+}
+
+.body h1{
+    font-size: 3vmax;
+}
+
+.body h2{
+    font-size: 2.5vmax;
+}
+
+
+.body h3{
+    font-size: 2vmax;
+}
+
+
+.body h4{
+    font-size: 1.5vmax;
+}
+
+.body p {
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+}
+.body img {
+    max-width: 90vw;
+}
+

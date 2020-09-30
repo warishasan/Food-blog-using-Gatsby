@@ -1,0 +1,93 @@
+.navBar{
+
+  border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 2vh;
+    display: flex;
+    border-color: rgb(251,12,35);
+    justify-content: space-between;
+  background-color: black;
+  border-width: 0.5vmax;
+    
+}
+.otherHeadigs{
+  font-size: 2vmax;
+  color: white;
+}
+
+.navBarHomeHeading{
+font-size: 3vmax;
+font-weight: bold;
+color: rgb(251,12,35);
+
+}
+.navBarHomeHeading:hover{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.otherHeadigs:hover{
+  text-decoration: none;
+  text-shadow: 4x 6px 2px rgb(251,12,35);;
+  color: white;
+}
+
+.otherHeadingsActive{
+  text-decoration: none;
+  text-shadow: 4px 6px 2px rgb(251,12,35);;
+  color: white;
+
+}
+
+.toggle{
+  
+  background-color: rgb(251,12,35);
+}
+
+
+
+.contentAndFooterContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.contentAndFooterContainer .mainContent{
+  flex-grow: 1;
+  min-height: 87vh;
+}
+
+.contentAndFooterContainer .footer{
+background-color: black;
+color: white;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+font-size: 1.5vmax;
+padding-right: 1vmax;
+padding-left: 1vmax;
+border-style: solid;
+border-bottom: none;
+border-left: none;
+border-right: none;
+border-color: red;
+  
+}
+
+
+
+
+
+.navBarHeadingsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    
+
+}
+

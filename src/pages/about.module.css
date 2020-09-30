@@ -1,0 +1,36 @@
+.firstPara {
+    text-align: center;
+    font-size: 1.2vmax;
+    padding: 1vmax;
+   
+}
+.firstPara h2 {
+    font-size: 3.5vmax;
+    margin-bottom: 1vmax;
+    color: rgb(230,79,79)
+    
+}
+
+.secondPara{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.2vmax;
+    text-align: center;
+    justify-content: space-around;
+    background-color:lightgrey;
+    
+}
+.secondPara h2{
+    font-size: 2.5vmax;
+    margin-bottom: 1vmax;
+    color: rgb(230,79,79)
+}
+
+.secondPara span{
+    max-width: 30vmax;
+    border-style: solid;
+    padding: 1vmax;
+    box-shadow: 10px 20px 10px rgb(173, 3, 32);
+}
+
