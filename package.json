@@ -15,18 +15,25 @@
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
+    "@reduxjs/toolkit": "^1.4.0",
     "@types/react-helmet": "^6.1.0",
     "bootstrap": "^4.5.2",
+    "firebase": "^7.21.1",
+    "formik": "^2.1.7",
     "gatsby": "^2.24.63",
+    "gatsby-plugin-firebase": "^0.2.0-beta.4",
     "gatsby-plugin-react-helmet": "^3.3.12",
     "gatsby-source-contentful": "^2.3.47",
     "gatsby-transformer-typescript-css-modules": "^1.0.14",
     "react": "^16.12.0",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.1",
+    "yup": "^0.29.3"
   },
   "devDependencies": {
+    "@types/reach__router": "^1.3.6",
     "cross-env": "^7.0.2",
     "env-cmd": "^10.1.0",
     "prettier": "2.1.1"

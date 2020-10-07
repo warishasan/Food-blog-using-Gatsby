@@ -1,0 +1,10 @@
+.linkButton{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.title{
+    font-weight: bold;
+    margin-left: 2vmax;
+}
+
+

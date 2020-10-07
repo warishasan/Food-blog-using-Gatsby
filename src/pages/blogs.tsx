@@ -7,6 +7,7 @@ import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 import Image from 'react-bootstrap/Image'
 import Head from '../components/head'
 
+
 export default function Blogs() {
  
 const data = useStaticQuery(graphql`query {
@@ -35,7 +36,6 @@ const data = useStaticQuery(graphql`query {
 }
 `)
 
-console.log(data.allContentfulBlogPost.edges)
 
   return (
 <div>
@@ -54,9 +54,9 @@ console.log(data.allContentfulBlogPost.edges)
     <div className = {styles.blogTextContentContainer}>
    <h2 className = {styles.blogHeading}>{edge.node.title}</h2>
     <h3 className = {styles.blogDate}>{edge.node.publishedDate}</h3>
-    <p className = {styles.blogSummary}>
+    <div className = {styles.blogSummary}>
     {documentToReactComponents(edge.node.summary.json)}
-    </p>
+    </div>
    
     </div>
     </div>

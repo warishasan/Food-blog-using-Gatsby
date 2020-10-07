@@ -66,3 +66,23 @@
     max-width: 90vw;
 }
 
+.msgContainer{
+
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    border-style: dashed;
+    border-width: 0.2vmax;
+    padding-top: 1vmax;
+    margin-bottom: 1vmax;
+}
+
+.msg {
+
+    font-size: 4vmax;
+}
+
+.linkButton{
+    cursor:pointer;
+    text-decoration: underline;
+}

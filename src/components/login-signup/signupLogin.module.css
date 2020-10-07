@@ -1,0 +1,52 @@
+.formRowContainer{
+   
+    
+    justify-content: center;
+   
+  
+}
+
+.formInnerContainer{
+ 
+   
+    margin:2vmax;
+  
+}
+.buttonsContainer{
+    
+  
+    margin-top: 2.5vmax;
+  
+}
+
+.button{
+    margin-right: 1vmax;
+}
+
+.error {
+    margin-top: 2vmax;
+    color: red;
+    margin-bottom: 0vmax;
+
+}
+
+.forgotPassword{
+    cursor:pointer;
+    text-decoration: underline;
+    margin-top: 1.5vmax;
+
+}
+
+.forgotPasswordHeader{
+    margin-bottom: 2vmax;
+}
+
+
+.verificationHeading{
+
+  
+   margin-bottom: 2vmax;
+}
+
+
+
